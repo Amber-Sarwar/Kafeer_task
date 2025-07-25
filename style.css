@@ -32,6 +32,7 @@ body{
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  padding: 10px 0;
   margin-right: 25px;
 }
 .left-sec p{
@@ -55,16 +56,16 @@ span{
   padding: 3px;
   color: rgb(121 1 1);
   font-weight: 800;
-  font-size: 1.15rem;
+  font-size: 1.55rem;
 }
 .left-sec .number{
   font-weight: 900;
-  font-size: 2.33rem;
+  font-size: 3rem;
 }
 .left-sec .ques{
   color: grey;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .nav{
   height: 8vh;
@@ -100,7 +101,7 @@ span{
 .nav ul li a{
   text-decoration: none;
   color: white;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 700;
   height: 100%;
   padding: 10px 20px;
@@ -115,13 +116,13 @@ span{
 
 }
 .images-sec .images1{
-  width: 60%;
+  width: 50%;
   height: auto;
   box-shadow: 2px 2px 2px grey;
   
 }
 .images-sec .images2{
-  width: 40%;
+  width: 50%;
   height: auto;
   box-shadow: 2px 2px 2px grey;
 }
@@ -231,9 +232,9 @@ form textarea{
   text-decoration: none;
   color: white;
   font-weight: bold;
-  font-size: 1.02rem;
+  font-size: 1.25rem;
   background-color: #a80203;
-  padding: 10px 15px;
+  padding:15px;
   width: 100%;
 }
 .last-sec img{
@@ -572,8 +573,34 @@ a i{
   .sec3 .section3{
     order: 2;
   }
+  .last-sec button{
+    padding: 10px;
+    font-size: 1.05rem;
+  }
+  
+  .nav ul li a{
+    font-size: 1rem;
+  }
+  .left-sec .call{
+    border-bottom: solid grey 2px;
+    padding: 3px;
+    color: rgb(121 1 1);
+    font-weight: 800;
+    font-size: 1.35rem;
+  }
+
+  .left-sec .number{
+    font-weight: 900;
+    font-size: 2.65rem;
+  }
+  .left-sec .ques{
+    color: grey;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
 }
 @media  (min-width: 768px) and (max-width: 991px){
+  
   .images-sec{
     flex-wrap: wrap;
   }
@@ -602,7 +629,7 @@ a i{
     padding: 3px;
     color: rgb(121 1 1);
     font-weight: 800;
-    font-size: .8rem;
+    font-size: .9rem;
   }
   .header .logo img{
     width: 100%;
@@ -610,12 +637,12 @@ a i{
   }
   .left-sec .number{
     font-weight: 900;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .left-sec .ques{
     color: grey;
     font-weight: 700;
-    font-size: .7rem;
+    font-size: .83rem;
   }
   .sec3 .section1{
     order: 1;
