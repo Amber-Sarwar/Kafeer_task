@@ -1,0 +1,918 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: grey;
+  padding: 0 10px;
+}
+.container{
+  background-color: white;
+  width: 100%;
+  padding-bottom: 100px;
+  border-bottom: 15px solid rgb(146, 1, 1);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.header .logo{
+  width: 50%;
+}
+.header .logo img{
+  height: 100%;
+  width: 100%;
+}
+.header .left-sec{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 25px;
+}
+.left-sec p{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center; 
+  text-align: justify;
+}
+span{
+  display: block;
+}
+.left-sec .number,
+.left-sec .call,
+.left-sec .ques{
+  width: 100%;
+  text-align: justify;
+}
+.left-sec .call{
+  border-bottom: solid grey 2px;
+  padding: 3px;
+  color: rgb(121 1 1);
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+.left-sec .number{
+  font-weight: 900;
+  font-size: 2.33rem;
+}
+.left-sec .ques{
+  color: grey;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.nav{
+  height: 8vh;
+  background-color: rgb(121 1 1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.images-sec,
+.nav ul li a,
+.nav ul li,
+.nav ul,
+.input,
+.input .form-inputs,
+.input .form-inputs div,
+.last-sec,
+.textarea,
+.sec3, .sec3 .section1,.sec3 .section2,.sec3 .section2,
+.main-body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul{
+  list-style-type: none;
+  margin-right: 20px;
+  height: 100%;
+}
+.nav ul li{
+  height: 100%;
+}
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 100%;
+  padding: 10px 20px;
+}
+.nav ul li a:hover{
+  background-color: grey;
+}
+.images-sec{
+  margin: 25px;
+  gap: 20px;
+  align-items: stretch;
+
+}
+.images-sec .images1{
+  width: 60%;
+  height: auto;
+  box-shadow: 2px 2px 2px grey;
+  
+}
+.images-sec .images2{
+  width: 40%;
+  height: auto;
+  box-shadow: 2px 2px 2px grey;
+}
+.images-sec img{
+  width: 100%;
+  height: 100%;
+}
+.images-sec form{
+  background-image: url("images/form_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+form .heading{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+form .heading h2{
+  align-self:flex-start ;
+  background-color: rgb(121 1 1);
+  color: white;
+  padding: 10px;
+}
+form .heading label{
+  font-weight: 800;
+  font-size: 1.5rem;
+  flex-grow: 1;
+  padding: 0 15px;
+}
+form .heading span{
+  display: inline;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #002b8b;
+}
+form .para{
+  padding: 20px ;
+  font-size: 1.15rem;
+  line-height: 25px;
+}
+.input{
+  padding: 10px 20px;
+  gap: 20px;
+}
+.input .confidential{
+  width: 45%;
+}
+.input .confidential img{
+  transform: rotate(20deg);
+}
+.input .form-inputs{
+  flex-direction: column;
+  gap: 10px;
+  width: 55%;
+ align-items: flex-start;
+}
+.input .form-inputs label{
+  display: inline;
+  font-weight: bold;
+}
+.input .form-inputs div{
+  justify-content: flex-start;
+  width: 100%;
+  gap: 5px;
+}
+.input .form-inputs div input{
+  height: 30px;
+  flex-grow: 1;
+}
+form textarea{
+  margin: 15px;
+  font-weight: bold;
+  padding: 10px 5px;
+  flex-grow: 1;
+  font-size: 1rem;
+}
+.last-sec {
+  padding: 10px 20px;
+}
+.guaranty{
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.guaranty p{
+  font-weight: 300;
+  font-style: italic;
+  color:  rgb(66, 66, 66);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: .9rem;
+  display: block;
+  width: 100%;
+}
+.button{
+  width: 60%;
+}
+.last-sec button{
+  display: block;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.02rem;
+  background-color: #a80203;
+  padding: 10px 15px;
+  width: 100%;
+}
+.last-sec img{
+  width: 10%;
+  height: auto;
+}
+.sec3 {
+  margin: 20px 40px ;
+  flex-wrap: wrap;
+}
+.sec3 h1{
+  margin-bottom:5px ;
+}
+.sec3 h1,.sec3 h1 span,
+.main-body h1,.main-body h1 span{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+.sec3 h1 span,.main-body h1 span{
+  display: inline;
+  color: rgb(146, 1, 1);
+}
+.sec3 .section1,.sec3 .section2,.sec3 .section3{
+  flex: 1;
+  color: rgb(63, 63, 63);
+  font-weight: bold;
+}
+.section1 .sec-button,.section3 .sec-button{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.section1 .sec-button div,.section3 .sec-button div{
+  border-top: 1px solid grey;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-image: url("images/lf_bt_hr_shadow.png");
+  background-repeat: no-repeat;
+}
+.section1  button,.section3 button{
+  background-color: #a80203;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px grey;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+}
+.sec3 .section1{
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px 20px 10px 10px ;
+}
+.sec3 .section1 .sec3-para{
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  gap: 15px;
+}
+.sec3 .section1 h4{
+  color: rgb(146, 1, 1);
+  font-size: 1.15rem;
+}
+.sec3 .section2{
+  flex-direction: column;
+  align-items: flex-start;
+  border-right: 2px solid gray;
+  border-left: 2px solid gray;
+  gap: 15px;
+}
+.sec3 .section2 div {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+}
+.sec3 .section2 .hr{
+  border-bottom: 1px solid gray;
+}
+.sec3 .section2 div div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.sec3 .section2 div .paragraph{
+  width: 70%;
+}
+.sec3 .section2 div .image{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.section2 .sec-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0;
+}
+.section2 .sec-button div{
+  border-top: 1px solid grey;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-image: url("images/lf_bt_hr_shadow.png");
+  background-repeat: no-repeat;
+}
+.section2  button{
+  background-color: #a80203;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px grey;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  width: 82%;
+}
+.sec3 .section3{
+  padding: 20px;
+}
+.sec3 .section3 .images{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.hrimg{
+  width: 100%;
+  padding: 20px;
+ 
+}
+.hrimg img{
+  width: 100%;
+  height: 2vh;
+}
+.main-body{
+  color:rgb(61, 60, 60);
+  gap: 15;
+
+  align-items: flex-start;
+}
+.main-body .section1{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 20px;
+}
+.main-body .section1 .dui{
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px rgb(68, 68, 68);
+
+}
+.main-body .section1 div div{
+  background-color: rgb(153, 153, 153);
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  padding: 5px 10px;
+  border-left: 10px solid rgb(146, 1, 1);
+}
+.main-body .section1 div div a{
+  margin-top: 25px;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  text-align: right;
+  font-size: .8rem;
+  color: white;
+}
+.main-body .section1 ul{
+  list-style-type: none;
+  padding: 60px;
+  text-align: center;
+}
+.main-body .section1 ul li{
+  font-size: 1.5rem;
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+}
+.main-body .section2{
+  width: 55%;
+  padding: 0 20px;
+}
+.main-body .section2 h1{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.main-body .section2 p{
+  font-size: 1.2rem;
+}
+.main-body .section3{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-right: 20px;
+}
+.main-body .section3 h1{
+  margin-bottom: 10px;
+}
+.main-body .section3 .sec-button{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 0;
+ 
+}
+.main-body .section3 .sec-button div{
+  border-top: 1px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  background-image: url("images/lf_bt_hr_shadow.png");
+  background-repeat: no-repeat;
+  
+}
+.main-body .section3  button{
+  background-color: #a80203;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px grey;
+  padding: 10px;
+  font-weight: bold;
+  color: white;
+  width: 65%;
+}
+.main-body .img{
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-self: center;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+button i,a i{
+  margin-left: 5px;
+}
+a i{
+  color: rgb(146, 1, 1);
+}
+.menu-toggle {
+  display: none; /* hide on desktop */
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+}
+@media  (min-width: 992px) and (max-width: 1199px){
+  .nav{
+    justify-content: center;
+  }
+  .images-sec .images1,.images-sec .images2{
+    width: 50%;
+  }
+  .main-body{
+    flex-wrap: wrap;
+  }
+  .main-body .section1{
+    width: 30%;
+  }
+  .main-body .section2{
+    width: 70%;
+  }
+  .main-body .section3 {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .main-body .section3>div{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+    .sec3 .section2{
+    border: none;
+    order: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    flex-wrap: wrap;
+    flex: 50%;
+  }
+  .sec3 .section1{
+    order: 1;
+    border-right: 1px solid gray;
+  }
+  .sec3 .section2{
+    border: none;
+    order: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    flex-wrap: wrap;
+    flex: 80%;
+  }
+  .sec3 .section2 div{
+    width: 80%;
+  }
+  .sec3  > div{
+    flex: 1;
+  }
+  .sec3 .section2 .hr{
+    border-top: 1px solid gray;
+  }
+  .sec3 .section3{
+    order: 2;
+  }
+}
+@media  (min-width: 768px) and (max-width: 991px){
+  .images-sec{
+    flex-wrap: wrap;
+  }
+  .images-sec .images1,.images-sec .images2{
+    width: 100%;
+  }
+  .input .confidential{
+    width: 30%;
+  }
+  .guaranty p{
+    font-size: 1.4rem
+  }
+  .nav ul{
+    display: none;
+  }
+  .nav{
+    justify-content: flex-start;
+   
+  }
+  .menu-toggle {
+    display: block; 
+    margin-left: 20px;
+  }
+  .left-sec .call{
+    border-bottom: solid grey 2px;
+    padding: 3px;
+    color: rgb(121 1 1);
+    font-weight: 800;
+    font-size: .8rem;
+  }
+  .header .logo img{
+    width: 100%;
+    height: 100%;
+  }
+  .left-sec .number{
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  .left-sec .ques{
+    color: grey;
+    font-weight: 700;
+    font-size: .7rem;
+  }
+  .sec3 .section1{
+    order: 1;
+    border-right: 1px solid gray;
+  }
+  .sec3 .section2{
+    border: none;
+    order: 3;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:none;
+    flex-wrap: wrap;
+    flex: 50%;
+  }
+  .sec3 .section2 div{
+    width: 80%;
+  }
+  .sec3  > div{
+    flex: 1;
+  }
+  .sec3 .section2 .hr{
+    border-top: 1px solid gray;
+  }
+  .sec3 .section3{
+    order: 2;
+  }
+  .main-body{
+    flex-wrap: wrap;
+  }
+  .main-body .section1{
+    width: 30%;
+  }
+  .main-body .section2{
+    width: 70%;
+  }
+  .main-body .section1 div div{
+    font-size: 1rem;
+    padding: 5px;
+  }
+  .sec3 .section1 .sec3-para{
+    flex-direction: row;
+  }
+  .main-body .section3{
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .main-body .section3 > div{
+    width: 30%;
+  }
+  .links .icons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
+@media  (min-width: 300px)and (max-width: 767px){
+  .sec3  {
+    flex-direction: column;
+  }
+  .main-body{
+    flex-direction: column;
+  }
+  .main-body .section1{
+    width: 100%;
+    padding: 20px;
+  }
+  .main-body .section2{
+    width: 100%;
+  }
+  .main-body .section3{
+    width: 100%;
+  }
+  .main-body .section3{
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .main-body .section3 > div{
+    align-items: center;
+    flex: 47%;
+  }
+  .main-body .section3 button{
+    width: 50%;
+  }
+  .header{
+    flex-wrap: wrap;
+    justify-content: stretch;
+    width: 100%;
+    align-items: stretch;
+  }
+  .header .logo{
+    width: 50%;
+  }
+  .header .left-sec{
+    width: 45%;
+  }
+  .nav ul{
+    display: none;
+  }
+  .nav{
+    justify-content: flex-start;
+   
+  }
+  .menu-toggle {
+    display: block; 
+    margin-left: 20px;
+  }
+  .images-sec{
+    flex-wrap: wrap;
+  }
+  .images-sec .images1,.images-sec .images2{
+    width: 100%;
+  }
+  .sec3 .section2{
+    border: none;
+    order: 3;
+  }
+  .sec3 .section2 .hr{
+    border: none;
+  }
+  .section2 button{
+    width: 55%;
+  }
+}
+@media  (min-width: 480px)and (max-width: 659px){
+  .header .logo ,  .header .left-sec {
+    width: 100%;
+    justify-content: center;
+}  
+.header .left-sec {
+  margin-bottom: 10px;
+}
+.input .form-inputs div input {
+  height: 25px;
+  width: 100%;
+}
+.input .confidential {
+  width: 35%;
+}
+form .heading label{
+  font-size: 1rem;
+}
+form .heading span {
+  font-size: 1.5rem;
+}
+.last-sec button{
+  font-size: .9rem;
+}
+.guaranty p{
+  font-size: .8rem;
+}
+.main-body .section3{
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.main-body .section3 > div{
+  align-items: center;
+  margin: 30px;
+}
+.main-body .section3 button{
+  width: 50%;
+}
+.main-body .section3 .img{
+  width: 60%;
+}
+}
+@media (min-width: 300px) and (max-width: 470px){
+
+  .header .logo,.header .left-sec{
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .header .left-sec .call{
+    border-bottom: solid grey 2px;
+    padding: 3px;
+    color: rgb(121 1 1);
+    font-weight: 800;
+    font-size: .7rem;
+  }
+  .images-sec{
+    margin: 5px;
+  }
+  .left-sec .number{
+    font-weight: 900;
+    font-size: 1rem;
+  }
+  .left-sec .ques{
+    color: grey;
+    font-weight: 700;
+    font-size: .6rem;
+  }
+  form .heading h2 {
+    font-size: 1rem;
+}
+form .heading label{
+  font-size: 1rem;
+}
+form .heading span {
+  font-size: 1.5rem;
+}
+form .heading{
+  flex-direction: column;
+  gap: 3px;
+}
+form .para{
+  font-size: .8rem;
+}
+.input{
+  flex-direction: column;
+}
+.input .form-inputs{
+  width: 100%;
+}
+.input .confidential {
+  width: 60%;
+}
+.input .confidential img {
+  transform: rotate(6deg);
+}
+form textarea{
+  font-size: 14px;
+}
+.last-sec{
+  flex-direction: column;
+}
+.guaranty,.button{
+  width: 100%;
+}
+.guaranty p{
+  font-size: 1.2rem;
+  text-align: center;
+}
+.last-sec button{
+  font-size: 13.33px;
+  margin-top: 10px;
+}
+.sec3 .section1 .sec3-para{
+  flex-direction: column;
+  align-items: center;
+}
+.section1 .sec-button{
+  justify-content: center;
+  width: 100%;
+}
+.section1 .sec-button div{
+  width: 80%;
+}
+.sec3 .section1 .sec3-para img{
+  width: 50%;height: auto;
+}
+.sec3 .section1,.sec3 .section3,.sec3 .section2 .hr,.sec3 .section2 > div,.sec3 .section2{
+  width: 90%;
+  padding: 10px;
+}
+.main-body .section3 button {
+  width: 51%;
+}
+.main-body .section1 div div{
+  font-size: 1rem;
+}
+.sec3 .section2 .hr,.section2 > div{
+  flex-direction: column;
+}
+.sec3 .section2 div .paragraph,.sec3 .section2 div .image{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.section2 .sec-button div{
+  width: 109%;
+}
+.section2 button,.section3 button
+{
+  width: 78%;
+}
+.section3 .sec-button div{
+  width: 72%;
+}
+.sec3 .section3,.section3 .sec-button {
+  justify-content: center;
+  align-items: center;
+}
+.sec3{
+  margin: 5px;
+}
+}
