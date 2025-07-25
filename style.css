@@ -473,7 +473,7 @@ form textarea{
   width: 65%;
 }
 .main-body .img{
-  width: 80%;
+  width: 70%;
   height: auto;
   display: flex;
   justify-self: center;
@@ -492,7 +492,8 @@ form textarea{
 .icons{
   margin-top: 10px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 10px;
   align-items: center;
   width: 100%;
 }
@@ -598,9 +599,39 @@ a i{
     font-weight: 700;
     font-size: 1.2rem;
   }
+  .main-body .img{
+    width: 40%;
+  }
 }
 @media  (min-width: 768px) and (max-width: 991px){
-  
+  .nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: -36px;
+    top: 171px;
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0 0 5px rgb(37, 37, 37);
+    border-radius: 1rem;
+    height: auto;
+    width: 30%;
+    padding: 20px 0;
+  }
+  .nav ul li{
+    width: 100%;
+  }
+  .nav ul li a{
+    padding: 10px;
+    width: 100%;
+    color: rgb(121, 1, 1);
+  }
+  .nav ul li a:hover{
+    background-color: rgb(121, 1, 1);
+    color: white;
+  }
+
   .images-sec{
     flex-wrap: wrap;
   }
@@ -700,11 +731,44 @@ a i{
   .links .icons{
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
   }
 
 }
 @media  (min-width: 300px)and (max-width: 767px){
+  .main-body .img{
+    width: 40%;
+  }
+  .nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: -36px;
+    top: 165px;
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0 0 5px rgb(37, 37, 37);
+    border-radius: .5rem;
+    height: auto;
+    width: 40%;
+    padding: 20px 0;
+  }
+  .nav ul li{
+    width: 100%;
+  }
+  .nav ul li a{
+    padding: 10px;
+    width: 100%;
+    color: rgb(121, 1, 1);
+    font-size: 1rem;
+  }
+  .nav ul li a:hover{
+    background-color: rgb(121, 1, 1);
+    color: white;
+  }
+
   .sec3  {
     flex-direction: column;
   }
@@ -777,6 +841,34 @@ a i{
   }
 }
 @media  (min-width: 480px)and (max-width: 659px){
+  .nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: -36px;
+    top: 157px;
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0 0 5px rgb(37, 37, 37);
+    border-radius: 1rem;
+    height: auto;
+    width: 50%;
+    padding: 20px 0;
+  }
+  .nav ul li{
+    width: 100%;
+  }
+  .nav ul li a{
+    padding: 10px;
+    width: 100%;
+    color: rgb(121, 1, 1);
+  }
+  .nav ul li a:hover{
+    background-color: rgb(121, 1, 1);
+    color: white;
+  }
+
   .header .logo ,  .header .left-sec {
     width: 100%;
     justify-content: center;
@@ -819,10 +911,38 @@ form .heading span {
   width: 50%;
 }
 .main-body .section3 .img{
-  width: 60%;
+  width: 40%;
 }
 }
 @media (min-width: 300px) and (max-width: 470px){
+  .nav ul{
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    left: -38px;
+    top: 157px;
+    background-color: white;
+    margin: 5px;
+    box-shadow: 0 0 5px rgb(37, 37, 37);
+    border-radius: .5rem;
+    height: auto;
+    width: 75%;
+    padding: 20px 0;
+  }
+  .nav ul li{
+    width: 100%;
+  }
+  .nav ul li a{
+    padding: 10px;
+    width: 100%;
+    color: rgb(121, 1, 1);
+    font-size: 1rem;
+  }
+  .nav ul li a:hover{
+    background-color: rgb(121, 1, 1);
+    color: white;
+  }
 
   .header .logo,.header .left-sec{
     width: 100%;
