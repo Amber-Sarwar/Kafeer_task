@@ -99,6 +99,7 @@ span{
   height: 100%;
 }
 .nav ul li a{
+  display: inline-block;
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
@@ -604,34 +605,11 @@ a i{
   }
 }
 @media  (min-width: 768px) and (max-width: 991px){
-  .nav ul{
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    left: -36px;
-    top: 171px;
-    background-color: white;
-    margin: 5px;
-    box-shadow: 0 0 5px rgb(37, 37, 37);
-    border-radius: 1rem;
-    height: auto;
-    width: 30%;
-    padding: 20px 0;
-  }
-  .nav ul li{
-    width: 100%;
-  }
   .nav ul li a{
-    padding: 10px;
-    width: 100%;
-    color: rgb(121, 1, 1);
-  }
-  .nav ul li a:hover{
-    background-color: rgb(121, 1, 1);
-    color: white;
+    font-size: 1rem;
   }
 
+  .nav{justify-content: center;}
   .images-sec{
     flex-wrap: wrap;
   }
@@ -644,17 +622,7 @@ a i{
   .guaranty p{
     font-size: 1.4rem
   }
-  .nav ul{
-    display: none;
-  }
-  .nav{
-    justify-content: flex-start;
-   
-  }
-  .menu-toggle {
-    display: block; 
-    margin-left: 20px;
-  }
+
   .left-sec .call{
     border-bottom: solid grey 2px;
     padding: 3px;
@@ -740,37 +708,29 @@ a i{
   .main-body .img{
     width: 40%;
   }
+  .nav{
+    height: auto;
+  }
   .nav ul{
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    left: -36px;
-    top: 165px;
-    background-color: white;
-    margin: 5px;
-    box-shadow: 0 0 5px rgb(37, 37, 37);
-    border-radius: .5rem;
-    height: auto;
-    width: 40%;
-    padding: 20px 0;
+    width: 100%;
+    margin: 0;
   }
   .nav ul li{
     width: 100%;
+    display: flex;
+
   }
   .nav ul li a{
-    padding: 10px;
     width: 100%;
-    color: rgb(121, 1, 1);
-    font-size: 1rem;
+    text-align: center;
   }
   .nav ul li a:hover{
-    background-color: rgb(121, 1, 1);
-    color: white;
+    background-color: rgb(61, 60, 60);
   }
-
   .sec3  {
     flex-direction: column;
+    gap: 30px;
   }
   .main-body{
     flex-direction: column;
@@ -812,17 +772,6 @@ a i{
   .header .left-sec{
     width: 45%;
   }
-  .nav ul{
-    display: none;
-  }
-  .nav{
-    justify-content: flex-start;
-   
-  }
-  .menu-toggle {
-    display: block; 
-    margin-left: 20px;
-  }
   .images-sec{
     flex-wrap: wrap;
   }
@@ -841,34 +790,26 @@ a i{
   }
 }
 @media  (min-width: 480px)and (max-width: 659px){
+  .nav{
+    height: auto;
+  }
   .nav ul{
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    left: -36px;
-    top: 157px;
-    background-color: white;
-    margin: 5px;
-    box-shadow: 0 0 5px rgb(37, 37, 37);
-    border-radius: 1rem;
-    height: auto;
-    width: 50%;
-    padding: 20px 0;
+    width: 100%;
+    margin: 0;
   }
   .nav ul li{
     width: 100%;
+    display: flex;
+
   }
   .nav ul li a{
-    padding: 10px;
     width: 100%;
-    color: rgb(121, 1, 1);
+    text-align: center;
   }
   .nav ul li a:hover{
-    background-color: rgb(121, 1, 1);
-    color: white;
+    background-color: rgb(61, 60, 60);
   }
-
   .header .logo ,  .header .left-sec {
     width: 100%;
     justify-content: center;
@@ -915,35 +856,26 @@ form .heading span {
 }
 }
 @media (min-width: 300px) and (max-width: 470px){
+  .nav{
+    height: auto;
+  }
   .nav ul{
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    position: relative;
-    left: -38px;
-    top: 157px;
-    background-color: white;
-    margin: 5px;
-    box-shadow: 0 0 5px rgb(37, 37, 37);
-    border-radius: .5rem;
-    height: auto;
-    width: 75%;
-    padding: 20px 0;
+    width: 100%;
+    margin: 0;
   }
   .nav ul li{
     width: 100%;
+    display: flex;
+
   }
   .nav ul li a{
-    padding: 10px;
     width: 100%;
-    color: rgb(121, 1, 1);
-    font-size: 1rem;
+    text-align: center;
   }
   .nav ul li a:hover{
-    background-color: rgb(121, 1, 1);
-    color: white;
+    background-color: rgb(61, 60, 60);
   }
-
   .header .logo,.header .left-sec{
     width: 100%;
     justify-content: center;
