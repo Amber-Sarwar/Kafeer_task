@@ -105,7 +105,8 @@ span{
   font-size: 1.2rem;
   font-weight: 700;
   height: 100%;
-  padding: 10px 20px;
+  padding: 14px 20px;
+  text-align: center
 }
 .nav ul li a:hover{
   background-color: grey;
@@ -886,19 +887,19 @@ form .heading span {
     padding: 3px;
     color: rgb(121 1 1);
     font-weight: 800;
-    font-size: .7rem;
+    font-size: 1rem;
   }
   .images-sec{
     margin: 5px;
   }
   .left-sec .number{
     font-weight: 900;
-    font-size: 1rem;
+    font-size: 1.95rem;
   }
   .left-sec .ques{
     color: grey;
     font-weight: 700;
-    font-size: .6rem;
+    font-size: .9;
   }
   form .heading h2 {
     font-size: 1rem;
