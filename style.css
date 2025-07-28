@@ -99,14 +99,13 @@ span{
   height: 100%;
 }
 .nav ul li a{
-  display: inline-block;
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
   font-weight: 700;
   height: 100%;
-  padding: 14px 20px;
-  text-align: center
+  padding: 10px 20px;
+  text-align: center;
 }
 .nav ul li a:hover{
   background-color: grey;
@@ -706,6 +705,23 @@ a i{
 
 }
 @media  (min-width: 300px)and (max-width: 767px){
+  .header .left-sec .call{
+    border-bottom: solid grey 2px;
+    padding: 3px;
+    color: rgb(121 1 1);
+    font-weight: 800;
+    font-size: 1rem;
+  }
+  
+  .left-sec .number{
+    font-weight: 900;
+    font-size: 1.95rem;
+  }
+  .left-sec .ques{
+    color: grey;
+    font-weight: 700;
+    font-size: .9rem;
+  }
   .main-body .img{
     width: 40%;
   }
@@ -855,6 +871,23 @@ form .heading span {
 .main-body .section3 .img{
   width: 40%;
 }
+.header .left-sec .call{
+  border-bottom: solid grey 2px;
+  padding: 3px;
+  color: rgb(121 1 1);
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.left-sec .number{
+  font-weight: 900;
+  font-size: 1.95rem;
+}
+.left-sec .ques{
+  color: grey;
+  font-weight: 700;
+  font-size: .9rem;
+}
 }
 @media (min-width: 300px) and (max-width: 470px){
   .nav{
@@ -889,9 +922,7 @@ form .heading span {
     font-weight: 800;
     font-size: 1rem;
   }
-  .images-sec{
-    margin: 5px;
-  }
+  
   .left-sec .number{
     font-weight: 900;
     font-size: 1.95rem;
@@ -899,7 +930,10 @@ form .heading span {
   .left-sec .ques{
     color: grey;
     font-weight: 700;
-    font-size: .9;
+    font-size: .9rem;
+  }
+  .images-sec{
+    margin: 5px;
   }
   form .heading h2 {
     font-size: 1rem;
